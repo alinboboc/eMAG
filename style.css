@@ -87,31 +87,28 @@ section{
     width: 100%;
     background-color: #E9EBEE;
 }
-section div{
-    display: inline-block;
-}
 
-section div div div{
+section div div{
     display: flex;
     padding: 8px 10px;
     font-size: 14px;
 }
 
-section div div a{
+section div a{
     color: #000;
     text-decoration: none;
     margin: 0px;
     padding-left: 7px;
 }
 
-section div div div i {
+section div div i {
     text-align: center;
     width: 18px;
     height: 18px;
 }
 
 section img{
-    width: calc(100% - 45px);
+    width: calc(100% - 21px);
     height: auto;
 }
 
@@ -138,7 +135,7 @@ section img{
 
 .menu{
     background-color: #fff;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 .products{
@@ -147,6 +144,10 @@ section img{
     padding: 5px 10px 15px 10px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+}
+
+.bottom-menu{
+    padding-bottom: -20px;
 }
 
 #search{
@@ -181,7 +182,7 @@ section img{
         display: none;
     }
 
-    section div div img{
+    section div img{
         width: 100%;
         height: auto;
     }
