@@ -108,13 +108,21 @@ section div div i {
 }
 
 section img{
-    width: calc(100% - 21px);
+    width: calc(100% - 10px);
     height: auto;
 }
 
 .align{
     width: 1100px;
     height: 40px;
+    margin-left: -26px;
+}
+
+.fa-caret-down{
+    padding-left: 5px;
+     color: #444444;
+     height: 14px;
+     width: 8px;
 }
 
 .header-buttons{
@@ -135,7 +143,7 @@ section img{
 
 .menu{
     background-color: #fff;
-    margin-left: 45px;
+    margin-left: 10px;
 }
 
 .products{
@@ -146,8 +154,68 @@ section img{
     border-top-right-radius: 6px;
 }
 
+.fa-mobile-alt{
+    padding-top: 5px;
+}
+
 .bottom-menu{
     padding-bottom: -20px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: center;
+}
+
+.benefits div{
+    display: flex;
+    vertical-align: middle;
+    padding: 17px 27px 17px 27px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.benefits div p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.benefits img{
+    width: 54px;
+    height: 54px;
+    padding-right: 15px;
+}
+
+.middle{
+    width: 100%;
+    background-color: #E9EBEE;
+}
+
+section .offers{
+    display: flex;
+}
+
+.offers-img{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#offers button{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 10px 25px;
+    width: 140px;
+    height: 50px;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
 }
 
 #search{
@@ -173,6 +241,10 @@ section img{
     margin-left: -20px;
 }
 
+#offers{
+    background-color: #488EAE;
+}
+
 @media (max-width: 1255px){
     #search{
         width: 400px;
@@ -180,6 +252,10 @@ section img{
 
     .menu{
         display: none;
+    }
+
+    .align{
+        margin-left: 0;
     }
 
     section div img{
@@ -192,6 +268,18 @@ section img{
     header div:nth-child(4){
         display: none !important;
     }
+
+    .benefits div p{
+        font-size: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .benefits img{
+        width: 42px;
+        height: 42px;
+        padding-right: 15px;
+    }
 }
 
 @media (max-width: 845px) {
@@ -200,6 +288,10 @@ section img{
     }
     .align{
         justify-content: center;
+    }
+
+    .benefits{
+        overflow: scroll;
     }
 }
 
